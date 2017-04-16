@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-   TLocation L1, L2("Technik", "Computer"); // Technik-Abteilung im Computer-Regal
+   TLocation L1, L2("Technik", "Computer"); //Technik-Abteilung im Computer-Regal
    TDate Geburtstag(17, 11, 1984);
    TAddress A1("Luxemburger Str.", "10", "D-13351", "Berlin");
    TAddress Adresse("Berliner Str.", "21-23", "10876", "Berlin");
