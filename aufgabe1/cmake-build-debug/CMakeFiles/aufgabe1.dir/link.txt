@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/aufgabe1.dir/main.cpp.o CMakeFiles/aufgabe1.dir/tdate.cpp.o CMakeFiles/aufgabe1.dir/ttime.cpp.o  -o aufgabe1 

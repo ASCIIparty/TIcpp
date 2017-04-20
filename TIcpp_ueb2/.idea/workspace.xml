@@ -12,12 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e07f24c2-94fe-4d7c-9c4a-fc39e289f579" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TIcpp_ueb1/.idea/TIcpp_ueb1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TIcpp_ueb1/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TIcpp_ueb1/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TIcpp_ueb1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TIcpp_ueb1/TDate.cpp" afterPath="$PROJECT_DIR$/../TIcpp_ueb1/TDate.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aufgabe1/.idea/aufgabe1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aufgabe1/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aufgabe1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aufgabe1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aufgabe1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TIcpp_ueb1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TIcpp_ueb1/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../aufgabe1/main.cpp" afterPath="$PROJECT_DIR$/../aufgabe1/main.cpp" />
     </list>
     <ignored path="TIcpp_ueb2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +63,8 @@
       <file leaf-file-name="TPerson.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TPerson.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="377">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -419,7 +421,7 @@
       <workItem from="1492334520266" duration="3724000" />
       <workItem from="1492355520697" duration="264000" />
       <workItem from="1492707350187" duration="304000" />
-      <workItem from="1492707852172" duration="1120000" />
+      <workItem from="1492707852172" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="Testing IDE setup">
       <created>1492355725368</created>
@@ -432,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5412000" />
+    <option name="totallyTimeSpent" value="6428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-11" width="1393" height="912" extended-state="6" />
@@ -774,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TPerson.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="377">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding />
         </state>
       </provider>
