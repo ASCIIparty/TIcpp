@@ -7,7 +7,7 @@ int main()
  TDate D1, D2(1, 5, 2017);
  TTime T1, T2(6, 32, 27), T3(17, 45);
  cout << "\nKlasse TDate:" << endl;
- cout << "Standardkonstruktor Heutiges Datum (D1): "; D1.print(); cout << endl;
+ cout << "Standardkonstruktor Heutiges Datum (D1): "; D1.print(); cout << endl; //kommentar
  cout << "Konstruktor Tag der Arbeit (D2): "; D2.print(); cout << endl;
  cout << "\nKlasse TTime:" << endl;
  cout << "Standardkonstruktor Aktuelle Uhrzeit (T1): "; T1.print(); cout << endl;
