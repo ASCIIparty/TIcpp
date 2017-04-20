@@ -1,0 +1,28 @@
+#ifndef TADRESS_H_
+#define TADRESS_H_
+
+using namespace std;
+
+class TAdress {
+
+private:
+	string street;
+	string number;
+	string zipcode;
+	string town;
+public:
+	TAdress();
+	TAdress(string, string, string, string);
+	void print();
+	string getStreet();
+	string getNumber();
+	string getZipcode();
+	string getTown();
+	void setStreet(string);
+	void setNumber(string);
+	void setZipcode(string);
+	~TAdress();
+
+};
+
+#endif /* TADRESS_H_ */

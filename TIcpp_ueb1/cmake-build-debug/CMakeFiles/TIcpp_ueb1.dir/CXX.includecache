@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bob/workspace/TIcpp_ueb1/TDate.cpp
+tdate.h
+/home/bob/workspace/TIcpp_ueb1/tdate.h
+stdio.h
+-
+ctime
+-
+
+/home/bob/workspace/TIcpp_ueb1/TTime.cpp
+ttime.h
+/home/bob/workspace/TIcpp_ueb1/ttime.h
+stdio.h
+-
+ctime
+-
+
+/home/bob/workspace/TIcpp_ueb1/Ueb1.cpp
+iostream
+-
+tdate.h
+/home/bob/workspace/TIcpp_ueb1/tdate.h
+ttime.h
+/home/bob/workspace/TIcpp_ueb1/ttime.h
+
+/home/bob/workspace/TIcpp_ueb1/tdate.h
+
+/home/bob/workspace/TIcpp_ueb1/ttime.h
+

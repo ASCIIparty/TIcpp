@@ -1,0 +1,17 @@
+/*
+ * tadress.h
+ *
+ *  Created on: Apr 16, 2017
+ *      Author: bob
+ */
+
+#ifndef TADRESS_H_
+#define TADRESS_H_
+
+class TAdress {
+public:
+	TAdress();
+	virtual ~TAdress();
+};
+
+#endif /* TADRESS_H_ */

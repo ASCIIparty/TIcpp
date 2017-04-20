@@ -1,0 +1,22 @@
+/*
+ * TLocation.h
+ *
+ *  Created on: Apr 15, 2017
+ *      Author: bob
+ */
+
+#ifndef TLOCATION_H_
+#define TLOCATION_H_
+
+class TLocation {
+
+private:
+	std::string section;
+	std::string rack;
+public:
+	TLocation();
+	TLocation(string, string);
+	~TLocation();
+};
+
+#endif /* TLOCATION_H_ */

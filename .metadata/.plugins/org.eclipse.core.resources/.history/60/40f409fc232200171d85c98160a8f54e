@@ -1,0 +1,21 @@
+/*
+ * ttime.h
+ *
+ *  Created on: Apr 15, 2017
+ *      Author: bob
+ */
+
+#ifndef ttime_h
+  #define ttime_h TTime_h
+
+  class TTime
+  {
+    private:
+      int hour, min, sec;
+    public:
+      TTime();
+      void print();
+  };
+#endif
+
+#endif /* TTIME_H_ */

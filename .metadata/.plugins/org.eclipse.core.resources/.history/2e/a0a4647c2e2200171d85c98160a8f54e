@@ -1,0 +1,29 @@
+#ifndef TADDRESS_H_
+#define TADDRESS_H_
+
+#include <string>
+
+class TAddress {
+
+private:
+	string street;
+	string number;
+	string zipcode;
+	string town;
+public:
+	TAddress();
+	TAddress(string, string, string, string);
+	void print();
+	string getStreet();
+	string getNumber();
+	string getZipcode();
+	string getTown();
+	void setStreet(string);
+	void setNumber(string);
+	void setZipcode(string);
+	void setTown(string);
+	~TAddress();
+
+};
+
+#endif /* TADDRESS_H_ */

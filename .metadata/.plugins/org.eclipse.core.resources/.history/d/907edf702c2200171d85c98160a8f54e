@@ -1,0 +1,30 @@
+/*
+ * tperson.h
+ *
+ *  Created on: Apr 16, 2017
+ *      Author: bob
+ */
+
+#ifndef TPERSON_H_
+#define TPERSON_H_
+
+#include <string>
+
+#include "tdate.h"
+
+using namespace std;
+
+class TPerson {
+private:
+	string name;
+	TAddress address;
+	TDate birthday;
+
+public:
+	TPerson();
+	TPerson(string, TAddress, TDate);
+	void print();
+	~TPerson();
+};
+
+#endif /* TPERSON_H_ */

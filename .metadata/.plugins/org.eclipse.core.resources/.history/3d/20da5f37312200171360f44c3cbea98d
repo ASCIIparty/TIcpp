@@ -1,0 +1,74 @@
+/*
+ * TAddress.cpp
+ *
+ *  Created on: Apr 16, 2017
+ *      Author: bob
+ */
+
+#include "taddress.h"
+#include <string>
+
+TAddress::TAddress()
+{
+
+}
+
+TAddress::TAddress(std::string s, std::string n, std::string z, std::string t)
+{
+	street = s;
+	number = n;
+	zipcode = z;
+	town = t;
+}
+
+
+void TAddress::print()
+{
+	printf("%s %s%n", getStreet(), getNumber());
+	printf("%s %s%n", getZipcode(), getTown());
+}
+
+string TAddress::getStreet()
+{
+	return street;
+}
+
+string TAddress::getNumber()
+{
+	return number;
+}
+
+string TAddress::getZipcode()
+{
+	return zipcode;
+}
+
+string TAddress::getTown()
+{
+	return town;
+}
+
+void TAddress::setStreet(string s)
+{
+	street = s;
+}
+
+void TAddress::setNumber(string n)
+{
+	number = n;
+}
+
+void TAddress::setZipcode(string z)
+{
+	zipcode = z;
+}
+
+void TAddress::setTown(string t)
+{
+	town = t;
+}
+
+TAddress::~TAddress() {
+	// TODO Auto-generated destructor stub
+}
+

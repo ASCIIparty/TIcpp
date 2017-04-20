@@ -1,0 +1,17 @@
+/*
+ * tdate.h
+ *
+ *  Created on: Apr 15, 2017
+ *      Author: bob
+ */
+
+#ifndef TDATE_H_
+#define TDATE_H_
+
+class TDate {
+public:
+	TDate();
+	virtual ~TDate();
+};
+
+#endif /* TDATE_H_ */

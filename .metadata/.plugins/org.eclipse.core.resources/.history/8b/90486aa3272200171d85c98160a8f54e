@@ -1,0 +1,31 @@
+/*
+ * TLocation.cpp
+ *
+ *  Created on: Apr 15, 2017
+ *      Author: bob
+ */
+
+#include "TLocation.h"
+
+TLocation::TLocation()
+{
+	section = "Büro";
+	rack = "Fach zum Einsortieren";
+}
+
+TLocation::TLocation(string s, string r)
+{
+	section = s;
+	rack = r;
+}
+
+void TLocation::print()
+{
+	printf("")
+}
+
+TLocation::~TLocation()
+{
+	// TODO Auto-generated destructor stub
+}
+

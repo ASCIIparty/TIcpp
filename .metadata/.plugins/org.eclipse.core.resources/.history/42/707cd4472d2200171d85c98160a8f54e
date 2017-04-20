@@ -1,0 +1,32 @@
+/*
+ * TPerson.cpp
+ *
+ *  Created on: Apr 16, 2017
+ *      Author: bob
+ */
+
+#include "tperson.h"
+
+TPerson::TPerson() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TPerson::TPerson(string n , TAddress a, TDate b)
+{
+	name = n;
+	address = a;
+	birthday = b;
+}
+void print();
+string getName();
+TAddress getAddress();
+TDate getBirthday();
+void setName(string);
+void setAddress(TAddress);
+void setBirthday(TDate);
+
+TPerson::~TPerson() {
+	// TODO Auto-generated destructor stub
+}
+

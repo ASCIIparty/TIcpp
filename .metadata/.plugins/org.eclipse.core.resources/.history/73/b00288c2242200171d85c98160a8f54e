@@ -1,0 +1,18 @@
+/*
+ * TDate.cpp
+ *
+ *  Created on: Apr 15, 2017
+ *      Author: bob
+ */
+
+#include "tdate.h"
+
+TDate::TDate() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TDate::~TDate() {
+	// TODO Auto-generated destructor stub
+}
+

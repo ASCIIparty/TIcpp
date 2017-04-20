@@ -1,0 +1,86 @@
+09:58:15 **** Build of configuration Debug for project TIcpp_ueb2 ****
+make all 
+Building file: ../TAddress.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"TAddress.d" -MT"TAddress.o" -o "TAddress.o" "../TAddress.cpp"
+../TAddress.cpp: In member function ‘void TAddress::print()’:
+../TAddress.cpp:30:44: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+  printf("%s %s%n", getStreet(), getNumber());
+                                            ^
+../TAddress.cpp:30:44: warning: format ‘%s’ expects argument of type ‘char*’, but argument 3 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+../TAddress.cpp:30:44: warning: format ‘%n’ expects a matching ‘int*’ argument [-Wformat=]
+../TAddress.cpp:31:43: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+  printf("%s %s%n", getZipcode(), getTown());
+                                           ^
+../TAddress.cpp:31:43: warning: format ‘%s’ expects argument of type ‘char*’, but argument 3 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+../TAddress.cpp:31:43: warning: format ‘%n’ expects a matching ‘int*’ argument [-Wformat=]
+Finished building: ../TAddress.cpp
+ 
+Building file: ../TDate.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"TDate.d" -MT"TDate.o" -o "TDate.o" "../TDate.cpp"
+Finished building: ../TDate.cpp
+ 
+Building file: ../TLocation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"TLocation.d" -MT"TLocation.o" -o "TLocation.o" "../TLocation.cpp"
+../TLocation.cpp: In member function ‘void TLocation::print()’:
+../TLocation.cpp:30:57: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+  printf("Abt.: %s; Regal: %s%n", getSection(), getRack());
+                                                         ^
+../TLocation.cpp:30:57: warning: format ‘%s’ expects argument of type ‘char*’, but argument 3 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+../TLocation.cpp:30:57: warning: format ‘%n’ expects a matching ‘int*’ argument [-Wformat=]
+Finished building: ../TLocation.cpp
+ 
+Building file: ../TPerson.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"TPerson.d" -MT"TPerson.o" -o "TPerson.o" "../TPerson.cpp"
+In file included from ../TPerson.cpp:8:0:
+../tperson.h:20:2: error: ‘TAddress’ does not name a type
+  TAddress address;
+  ^~~~~~~~
+../tperson.h:25:18: error: ‘TAddress’ has not been declared
+  TPerson(string, TAddress, TDate);
+                  ^~~~~~~~
+../tperson.h:28:2: error: ‘TAddress’ does not name a type
+  TAddress getAddress();
+  ^~~~~~~~
+../tperson.h:31:18: error: ‘TAddress’ has not been declared
+  void setAddress(TAddress);
+                  ^~~~~~~~
+../TPerson.cpp:15:29: error: ‘TAddress’ has not been declared
+ TPerson::TPerson(string n , TAddress a, TDate b)
+                             ^~~~~~~~
+../TPerson.cpp: In constructor ‘TPerson::TPerson(std::__cxx11::string, int, TDate)’:
+../TPerson.cpp:18:2: error: ‘address’ was not declared in this scope
+  address = a;
+  ^~~~~~~
+../TPerson.cpp: In member function ‘void TPerson::print()’:
+../TPerson.cpp:24:26: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+  printf("%s%n", getName());
+                          ^
+../TPerson.cpp:24:26: warning: format ‘%n’ expects a matching ‘int*’ argument [-Wformat=]
+../TPerson.cpp:25:2: error: ‘address’ was not declared in this scope
+  address.print();
+  ^~~~~~~
+../TPerson.cpp:26:28: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘TDate*’ [-Wformat=]
+  printf("%s", getBirthday());
+                            ^
+../TPerson.cpp: At global scope:
+../TPerson.cpp:33:1: error: ‘TAddress’ does not name a type
+ TAddress TPerson::getAddress()
+ ^~~~~~~~
+../TPerson.cpp: In member function ‘TDate TPerson::getBirthday()’:
+../TPerson.cpp:42:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../TPerson.cpp: At global scope:
+../TPerson.cpp:49:26: error: variable or field ‘setAddress’ declared void
+ void TPerson::setAddress(TAddress a)
+                          ^~~~~~~~
+../TPerson.cpp:49:26: error: ‘TAddress’ was not declared in this scope
+subdir.mk:33: recipe for target 'TPerson.o' failed
+make: *** [TPerson.o] Error 1
+
+09:58:18 Build Finished (took 2s.880ms)
+

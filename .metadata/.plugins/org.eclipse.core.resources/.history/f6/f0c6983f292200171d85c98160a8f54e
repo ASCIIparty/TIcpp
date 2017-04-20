@@ -1,0 +1,45 @@
+/*
+ * TAdress.cpp
+ *
+ *  Created on: Apr 16, 2017
+ *      Author: bob
+ */
+
+#include "tadress.h"
+
+unsing namespace std;
+
+TAdress::TAdress() {
+	// TODO Auto-generated constructor stub
+
+}
+
+void TAdress::print()
+{
+	printf();
+}
+
+string TAdress::getStreet()
+{
+
+}
+
+string getNumber()
+{
+
+}
+
+string getZupcode()
+{
+
+}
+
+string getTown()
+{
+
+}
+
+TAdress::~TAdress() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,17 @@
+/*
+ * ttime.h
+ *
+ *  Created on: Apr 15, 2017
+ *      Author: bob
+ */
+
+#ifndef TTIME_H_
+#define TTIME_H_
+
+class TTime {
+public:
+	TTime();
+	~TTime();
+};
+
+#endif /* TTIME_H_ */

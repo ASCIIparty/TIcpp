@@ -1,0 +1,51 @@
+/*
+ * TAdress.cpp
+ *
+ *  Created on: Apr 16, 2017
+ *      Author: bob
+ */
+
+#include "tadress.h"
+
+unsing namespace std;
+
+TAdress::TAdress()
+{
+
+}
+
+TAdress::TAdress(string s, string n, string, z, string t)
+{
+
+}
+
+void TAdress::print()
+{
+	printf("%s %s%n", getStreet(), getNumber());
+	printf("%s %s%n", getZipcode(), getTown());
+}
+
+string TAdress::getStreet()
+{
+	return street;
+}
+
+string TAdress::getNumber()
+{
+	return number;
+}
+
+string TAdress::getZipcode()
+{
+	return zipcode;
+}
+
+string TAdress::getTown()
+{
+	return town;
+}
+
+TAdress::~TAdress() {
+	// TODO Auto-generated destructor stub
+}
+
