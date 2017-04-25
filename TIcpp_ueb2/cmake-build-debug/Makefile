@@ -258,33 +258,6 @@ TTime.cpp.s:
 	$(MAKE) -f CMakeFiles/TIcpp_ueb2.dir/build.make CMakeFiles/TIcpp_ueb2.dir/TTime.cpp.s
 .PHONY : TTime.cpp.s
 
-Ueb2.o: Ueb2.cpp.o
-
-.PHONY : Ueb2.o
-
-# target to build an object file
-Ueb2.cpp.o:
-	$(MAKE) -f CMakeFiles/TIcpp_ueb2.dir/build.make CMakeFiles/TIcpp_ueb2.dir/Ueb2.cpp.o
-.PHONY : Ueb2.cpp.o
-
-Ueb2.i: Ueb2.cpp.i
-
-.PHONY : Ueb2.i
-
-# target to preprocess a source file
-Ueb2.cpp.i:
-	$(MAKE) -f CMakeFiles/TIcpp_ueb2.dir/build.make CMakeFiles/TIcpp_ueb2.dir/Ueb2.cpp.i
-.PHONY : Ueb2.cpp.i
-
-Ueb2.s: Ueb2.cpp.s
-
-.PHONY : Ueb2.s
-
-# target to generate assembly for a file
-Ueb2.cpp.s:
-	$(MAKE) -f CMakeFiles/TIcpp_ueb2.dir/build.make CMakeFiles/TIcpp_ueb2.dir/Ueb2.cpp.s
-.PHONY : Ueb2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -309,9 +282,6 @@ help:
 	@echo "... TTime.o"
 	@echo "... TTime.i"
 	@echo "... TTime.s"
-	@echo "... Ueb2.o"
-	@echo "... Ueb2.i"
-	@echo "... Ueb2.s"
 .PHONY : help
 
 

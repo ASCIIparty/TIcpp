@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/TIcpp_Buecherei.dir/main.cpp.o CMakeFiles/TIcpp_Buecherei.dir/TAddress.cpp.o CMakeFiles/TIcpp_Buecherei.dir/TDate.cpp.o CMakeFiles/TIcpp_Buecherei.dir/TTime.cpp.o CMakeFiles/TIcpp_Buecherei.dir/TLocation.cpp.o CMakeFiles/TIcpp_Buecherei.dir/TPerson.cpp.o  -o TIcpp_Buecherei 

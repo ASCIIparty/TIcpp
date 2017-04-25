@@ -99,9 +99,6 @@
 		<Unit filename="/home/bob/workspace/TIcpp_ueb2/TTime.cpp">
 			<Option target="TIcpp_ueb2"/>
 		</Unit>
-		<Unit filename="/home/bob/workspace/TIcpp_ueb2/Ueb2.cpp">
-			<Option target="TIcpp_ueb2"/>
-		</Unit>
 		<Unit filename="/home/bob/workspace/TIcpp_ueb2/taddress.h">
 			<Option target="TIcpp_ueb2"/>
 		</Unit>
