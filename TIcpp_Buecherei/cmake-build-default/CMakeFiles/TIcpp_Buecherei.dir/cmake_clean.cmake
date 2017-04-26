@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TIcpp_Buecherei.dir/TPerson.cpp.o"
   "CMakeFiles/TIcpp_Buecherei.dir/TMedium.cpp.o"
   "CMakeFiles/TIcpp_Buecherei.dir/TLibrary.cpp.o"
+  "CMakeFiles/TIcpp_Buecherei.dir/TLibraryPool.cpp.o"
+  "CMakeFiles/TIcpp_Buecherei.dir/TLoan.cpp.o"
   "TIcpp_Buecherei.pdb"
   "TIcpp_Buecherei"
 )

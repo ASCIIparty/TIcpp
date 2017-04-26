@@ -102,6 +102,18 @@
 		<Unit filename="/home/bob/workspace/TIcpp_Buecherei/TLibrary.h">
 			<Option target="TIcpp_Buecherei"/>
 		</Unit>
+		<Unit filename="/home/bob/workspace/TIcpp_Buecherei/TLibraryPool.cpp">
+			<Option target="TIcpp_Buecherei"/>
+		</Unit>
+		<Unit filename="/home/bob/workspace/TIcpp_Buecherei/TLibraryPool.h">
+			<Option target="TIcpp_Buecherei"/>
+		</Unit>
+		<Unit filename="/home/bob/workspace/TIcpp_Buecherei/TLoan.cpp">
+			<Option target="TIcpp_Buecherei"/>
+		</Unit>
+		<Unit filename="/home/bob/workspace/TIcpp_Buecherei/TLoan.h">
+			<Option target="TIcpp_Buecherei"/>
+		</Unit>
 		<Unit filename="/home/bob/workspace/TIcpp_Buecherei/TLocation.cpp">
 			<Option target="TIcpp_Buecherei"/>
 		</Unit>

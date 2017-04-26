@@ -204,6 +204,60 @@ TLibrary.cpp.s:
 	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLibrary.cpp.s
 .PHONY : TLibrary.cpp.s
 
+TLibraryPool.o: TLibraryPool.cpp.o
+
+.PHONY : TLibraryPool.o
+
+# target to build an object file
+TLibraryPool.cpp.o:
+	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLibraryPool.cpp.o
+.PHONY : TLibraryPool.cpp.o
+
+TLibraryPool.i: TLibraryPool.cpp.i
+
+.PHONY : TLibraryPool.i
+
+# target to preprocess a source file
+TLibraryPool.cpp.i:
+	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLibraryPool.cpp.i
+.PHONY : TLibraryPool.cpp.i
+
+TLibraryPool.s: TLibraryPool.cpp.s
+
+.PHONY : TLibraryPool.s
+
+# target to generate assembly for a file
+TLibraryPool.cpp.s:
+	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLibraryPool.cpp.s
+.PHONY : TLibraryPool.cpp.s
+
+TLoan.o: TLoan.cpp.o
+
+.PHONY : TLoan.o
+
+# target to build an object file
+TLoan.cpp.o:
+	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLoan.cpp.o
+.PHONY : TLoan.cpp.o
+
+TLoan.i: TLoan.cpp.i
+
+.PHONY : TLoan.i
+
+# target to preprocess a source file
+TLoan.cpp.i:
+	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLoan.cpp.i
+.PHONY : TLoan.cpp.i
+
+TLoan.s: TLoan.cpp.s
+
+.PHONY : TLoan.s
+
+# target to generate assembly for a file
+TLoan.cpp.s:
+	$(MAKE) -f CMakeFiles/TIcpp_Buecherei.dir/build.make CMakeFiles/TIcpp_Buecherei.dir/TLoan.cpp.s
+.PHONY : TLoan.cpp.s
+
 TLocation.o: TLocation.cpp.o
 
 .PHONY : TLocation.o
@@ -357,6 +411,12 @@ help:
 	@echo "... TLibrary.o"
 	@echo "... TLibrary.i"
 	@echo "... TLibrary.s"
+	@echo "... TLibraryPool.o"
+	@echo "... TLibraryPool.i"
+	@echo "... TLibraryPool.s"
+	@echo "... TLoan.o"
+	@echo "... TLoan.i"
+	@echo "... TLoan.s"
 	@echo "... TLocation.o"
 	@echo "... TLocation.i"
 	@echo "... TLocation.s"
