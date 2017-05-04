@@ -10,12 +10,13 @@ using namespace std;
 
 
 class TMedium {
+public:
+    enum status {verfuegbar, ausgeliehen, bestellt, reserviert};
+private:
     string titel, signatur;
     TLocation location;
     int FSK;
     char * statusNames[4];
-public:
-    enum status {verfuegbar, ausgeliehen, bestellt, reserviert};
     status stat;
 
 /*   enum status soll in der Klasse öffentlich angelegt werden, so
@@ -23,6 +24,7 @@ public:
     if ((Status & TMedium::verfuegbar) == TMedium::verfuegbar)
     Status = Tmedium::ausgeliehen;
 */
+public:
     TMedium(string t, string s, TLocation l, int f, status stat);
     char * getStatus();
     void print();

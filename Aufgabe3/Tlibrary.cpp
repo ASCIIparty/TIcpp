@@ -24,7 +24,7 @@ void TLibrary::print()
     address.print();
     printf("FilialLeiter: ");
     manager->print();
-    printf("Es stehen %d Medien zur Verfuegung:\n",(*this->mediumList).size());
+    printf("Es stehen %d Medien zur Verfuegung:\n\n",(*this->mediumList).size());
     for(int i = 0;i<(*this->mediumList).size();i++){
         printf("\n");
         printf("Medium Nr. %d\n",i+1);

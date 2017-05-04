@@ -2,11 +2,10 @@
 #include "TMedium.h"
 
 
-TMedium::TMedium(string t, string s, TLocation l, int f, status stat)
+TMedium::TMedium(string t, string s, TLocation l, int f, status stat):location(l)
 {
     titel = t;
     signatur = s;
-    location = l;
     FSK = f;
     this->stat=stat;
     //statusNames = {"verfuegbar", "ausgeliehen", "bestellt", "reserviert"};
@@ -28,12 +27,12 @@ char * TMedium::getStatus() //soll den Status im Klartext – also als String zurü
 
 void TMedium::print()
 {
-    printf("Titel: %*s\n",10, getTitle().c_str());
+    printf("Titel:%*s%s\n",10,"", getTitle().c_str());
     printf("Signatur:%*s\n",10, getSignature().c_str());
     printf("Ort:%*s ",10,"");
     location.print();
     printf("FSK:%*s freigegeben ab %d Jahren\n",10 ,"",getFSK());
-    printf("Status:%*s\n",10,getStatus());
+    printf("Status:%*s",10,getStatus());
 };
 
 int TMedium::getFSK()
