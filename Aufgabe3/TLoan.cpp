@@ -1,4 +1,4 @@
-
+#include "TLoan.h"
 TLoan::TLoan( TMedium * Medium,TPerson * Customer,TDate LoanDate,TDate Expiration)
 {
     this->Medium=Medium;
@@ -11,7 +11,7 @@ TLoan::~TLoan()
     cout<<"deletes"<<endl;
 }
 TPerson * TLoan::get_customer(){
-    return this->TPerson;
+    return this->Customer;
 }
 TDate TLoan::get_LoanDate()
 {

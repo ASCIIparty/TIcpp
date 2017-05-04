@@ -2,23 +2,24 @@
 #ifndef TICPP_BUECHEREI_TLIBRARY_H
 #define TICPP_BUECHEREI_TLIBRARY_H
 
-
+#include <vector>
 #include "TMedium.h"
 #include "TPerson.h"
+
 
 class TLibrary {
     string name;
     TAddress address;
     TPerson *manager;
-    static vector<TMedium> *mediumList;
-
-    TLibrary(string n, TAddress a, TPerson *m, vector<TMedium> *mL);
+    vector<TMedium> *mediumList;
+    public:
+    TLibrary(string n, TAddress a, TPerson *m);
     ~TLibrary();
 
     string getName();
     void print();
-    static vector<TMedium> getMediumList();
-    void add(TMedium medium);
+    vector<TMedium> * getMediumList();
+    void add(TMedium * medium);
 };
 
 

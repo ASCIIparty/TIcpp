@@ -32,6 +32,22 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="../aufgabe1/tdate.cpp" />
+		<Unit filename="../aufgabe1/tdate.h" />
+		<Unit filename="../aufgabe2/taddress.cpp" />
+		<Unit filename="../aufgabe2/taddress.h" />
+		<Unit filename="../aufgabe2/tlocation.cpp" />
+		<Unit filename="../aufgabe2/tlocation.h" />
+		<Unit filename="TLibrary.h" />
+		<Unit filename="TLibraryPool.cpp" />
+		<Unit filename="TLibraryPool.h" />
+		<Unit filename="TLoan.cpp" />
+		<Unit filename="TLoan.h" />
+		<Unit filename="TMedium.cpp" />
+		<Unit filename="TMedium.h" />
+		<Unit filename="TPerson.cpp" />
+		<Unit filename="TPerson.h" />
+		<Unit filename="Tlibrary.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

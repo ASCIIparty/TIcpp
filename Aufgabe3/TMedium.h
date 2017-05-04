@@ -1,7 +1,7 @@
 
 #include <string>
 #include <vector>
-#include "TLocation.h"
+#include "../aufgabe2/tlocation.h"
 
 using namespace std;
 
@@ -13,18 +13,18 @@ class TMedium {
     string titel, signatur;
     TLocation location;
     int FSK;
-    vector<string> statusNames = {"verfuegbar", "ausgeliehen", "bestellt", "reserviert"};
+    char * statusNames[4];
 public:
     enum status {verfuegbar, ausgeliehen, bestellt, reserviert};
-    status status;
+    status stat;
 
 /*   enum status soll in der Klasse öffentlich angelegt werden, so
             dass z.B. die Abfrage des Status lesbarer wird:
     if ((Status & TMedium::verfuegbar) == TMedium::verfuegbar)
     Status = Tmedium::ausgeliehen;
 */
-    TMedium(string t, string s, TLocation l, int f);
-    string getStatus();
+    TMedium(string t, string s, TLocation l, int f, status stat);
+    char * getStatus();
     void print();
     int getFSK();
     string getSignature();
