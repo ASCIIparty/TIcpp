@@ -1,6 +1,6 @@
 #include "TPerson.h"
-#include "TDate.h"
-#include "TAddress.h"
+#include "../aufgabe1/tdate.h"
+#include "../aufgabe2/taddress.h"
 #include <string>
 
 using namespace std;
@@ -26,7 +26,7 @@ string TPerson::getName()
 
 TAddress TPerson::getAddress()
 {
-    address.print();
+   return this->address;
 }
 
 TDate TPerson::getBirthday()

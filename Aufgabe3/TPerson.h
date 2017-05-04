@@ -3,8 +3,9 @@
 #define TICPP_BUECHEREI_TPERSON_H
 
 
-#include "TAddress.h"
-#include "TDate.h"
+#include "../aufgabe2/taddress.h"
+#include "../aufgabe1/tdate.h"
+#include<stdio.h>
 #include <string>
 
 using namespace std;

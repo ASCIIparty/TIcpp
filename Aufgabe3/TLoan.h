@@ -1,4 +1,6 @@
-
+#include "TMedium.h"
+#include "../aufgabe1/tdate.h"
+#include "TPerson.h"
 class TLoan{
 
 private:
@@ -14,4 +16,4 @@ public:
     TDate get_Expiration();
     void set_Expiration(TDate LoanDate);
 
-}
+};
