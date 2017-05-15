@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1492279922 source:c:\users\lennox\c\library\main.cpp
+	<iostream>
+	"tdate.h"
+	"ttime.h"
+
+1492285286 c:\users\lennox\c\library\tdate.h
+	<iostream>
+	<ctime>
+
+1492285286 c:\users\lennox\c\library\ttime.h
+	<iostream>
+
+1492285474 source:c:\users\lennox\c\library\tdate.cpp
+	<iostream>
+	"tdate.h"
+
