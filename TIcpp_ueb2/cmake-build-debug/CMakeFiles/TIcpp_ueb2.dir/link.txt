@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/TIcpp_ueb2.dir/TAddress.cpp.o CMakeFiles/TIcpp_ueb2.dir/TDate.cpp.o CMakeFiles/TIcpp_ueb2.dir/TLocation.cpp.o CMakeFiles/TIcpp_ueb2.dir/TPerson.cpp.o CMakeFiles/TIcpp_ueb2.dir/TTime.cpp.o  -o TIcpp_ueb2 

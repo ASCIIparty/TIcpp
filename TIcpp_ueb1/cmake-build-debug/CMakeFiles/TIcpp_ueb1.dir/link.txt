@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/TIcpp_ueb1.dir/TDate.cpp.o CMakeFiles/TIcpp_ueb1.dir/TTime.cpp.o CMakeFiles/TIcpp_ueb1.dir/Ueb1.cpp.o  -o TIcpp_ueb1 

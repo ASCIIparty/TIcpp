@@ -1,3 +1,0 @@
-/home/bob/workspace/TIcpp_Buecherei/cmake-build-default/CMakeFiles/rebuild_cache.dir
-/home/bob/workspace/TIcpp_Buecherei/cmake-build-default/CMakeFiles/edit_cache.dir
-/home/bob/workspace/TIcpp_Buecherei/cmake-build-default/CMakeFiles/TIcpp_Buecherei.dir

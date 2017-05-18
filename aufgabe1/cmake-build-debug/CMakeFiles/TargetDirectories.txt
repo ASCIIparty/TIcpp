@@ -1,3 +1,0 @@
-/home/bob/workspace/aufgabe1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bob/workspace/aufgabe1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bob/workspace/aufgabe1/cmake-build-debug/CMakeFiles/aufgabe1.dir
