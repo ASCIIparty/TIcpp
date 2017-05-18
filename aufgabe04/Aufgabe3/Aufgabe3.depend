@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1492698078 source:c:\users\lennox\c\aufgabe2\taddress.cpp
+	<iostream>
+	<string>
+	"taddress.h"
+
+1492379115 c:\users\lennox\c\aufgabe2\taddress.h
+	<iostream>
+	<string>
+
+1492709914 source:c:\users\lennox\c\aufgabe2\tlocation.cpp
+	<iostream>
+	<string>
+	"tlocation.h"
+
+1492378443 c:\users\lennox\c\aufgabe2\tlocation.h
+	<iostream>
+	<string>
+
+1492698030 source:c:\users\lennox\c\aufgabe2\tperson.cpp
+	<iostream>
+	<string>
+	"../aufgabe1/tdate.h"
+	"taddress.h"
+	"tperson.h"
+
+1492375326 c:\users\lennox\c\aufgabe1\tdate.h
+	<iostream>
+	<ctime>
+
+1492696487 c:\users\lennox\c\aufgabe2\tperson.h
+	<iostream>
+	<string>
+	"../aufgabe1/tdate.h"
+
+1492698830 source:c:\users\lennox\c\aufgabe1\tdate.cpp
+	<iostream>
+	"tdate.h"
+
+1493913009 source:c:\users\lennox\c\aufgabe3\main.cpp
+	<iostream>
+	"../aufgabe1/tdate.h"
+	"../aufgabe2/tlocation.h"
+	"../aufgabe2/taddress.h"
+	"TPerson.h"
+	"TMedium.h"
+	"TLibrary.h"
+	"TLibraryPool.h"
+
+1493312576 c:\users\lennox\c\aufgabe3\tperson.h
+	"../aufgabe2/taddress.h"
+	"../aufgabe1/tdate.h"
+	<stdio.h>
+	<string>
+
+1493920996 c:\users\lennox\c\aufgabe3\tmedium.h
+	<string>
+	<vector>
+	"../aufgabe2/tlocation.h"
+
+1493897941 c:\users\lennox\c\aufgabe3\tlibrary.h
+	<vector>
+	"TMedium.h"
+	"TPerson.h"
+
+1493919989 c:\users\lennox\c\aufgabe3\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TPerson.h"
+
+1493316937 c:\users\lennox\c\aufgabe3\tloan.h
+	"TMedium.h"
+	"../aufgabe1/tdate.h"
+	"TPerson.h"
+
+1493920996 source:c:\users\lennox\c\aufgabe3\tlibrary.cpp
+	"TLibrary.h"
+
+1493920098 source:c:\users\lennox\c\aufgabe3\tlibrarypool.cpp
+	<iostream>
+	<vector>
+	"TLibraryPool.h"
+
+1493317222 source:c:\users\lennox\c\aufgabe3\tloan.cpp
+	"TLoan.h"
+
+1493919320 source:c:\users\lennox\c\aufgabe3\tmedium.cpp
+	<stdio.h>
+	"TMedium.h"
+
+1493897636 source:c:\users\lennox\c\aufgabe3\tperson.cpp
+	"TPerson.h"
+	"../aufgabe1/tdate.h"
+	"../aufgabe2/taddress.h"
+	<string>
+
