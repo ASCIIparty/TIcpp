@@ -1,0 +1,245 @@
+# depslib dependency file v1.0
+1495883363 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TPerson.h"
+
+1495879327 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tloan.h
+	"TMedium.h"
+	"tdate.h"
+	"TPerson.h"
+
+1495879227 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlocation.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1495879335 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\taddress.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrary.h
+	<vector>
+	"TMedium.h"
+	"TPerson.h"
+
+1495881976 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1495882691 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrary.cpp
+	"TLibrary.h"
+
+1495883066 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1495882316 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1495879346 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1495880349 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\ttime.h
+	<iostream>
+
+1495892164 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1495892171 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tcustomer.h
+	<TPerson.h>
+
+1495891162 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1495892081 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1495892025 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1495885931 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TPerson.h"
+
+1495879327 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tloan.h
+	"TMedium.h"
+	"tdate.h"
+	"TPerson.h"
+
+1495888962 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tlibrary.h
+	<vector>
+	"TMedium.h"
+	"TPerson.h"
+
+1495881976 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1495882691 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1495883066 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1495882316 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1495879346 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1495880349 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\ttime.h
+	<iostream>
+
+1495890402 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tcd.cpp
+	"TCD.h"
+
+1495890326 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1495890499 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+
+1495975424 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1495890029 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+
+1495890016 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1495891614 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+
+1495891561 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1495974687 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tbook.cpp
+	"TBook.h"
+
+1495974614 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1495975513 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1495975613 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
