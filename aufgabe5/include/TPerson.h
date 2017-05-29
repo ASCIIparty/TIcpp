@@ -1,7 +1,5 @@
-
 #ifndef TICPP_BUECHEREI_TPERSON_H
 #define TICPP_BUECHEREI_TPERSON_H
-
 
 #include "taddress.h"
 #include "tdate.h"
@@ -12,7 +10,7 @@ using namespace std;
 
 
 class TPerson {
-private:
+protected:
     string name;
     TAddress address;
     TDate birthday;
@@ -32,7 +30,7 @@ public:
     void setAddress(TAddress);
     void setBirthday(TDate);
     void load( ifstream& file);
-    string parseLine(string line, pos * position);
+    string parseLine(string line, pos *position);
     ~TPerson()
     {    printf("TPerson object %s deleted.\n", name.c_str()); };
 

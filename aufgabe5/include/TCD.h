@@ -8,6 +8,7 @@ class TCD : virtual public TMedium
 {
     public:
         TCD(string t, string s, TLocation l, int f, status stat, int Tracks, string Artist);
+        TCD();
         virtual ~TCD();
     private:
         int Tracks;

@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <fstream>
-#include<cstdlib>
+#include <cstdlib>
 #include "TMedium.h"
 
 
@@ -38,12 +38,12 @@ void TMedium::setStatus(int i)
 
 void TMedium::print()
 {
-    printf("Titel:%*s%s\n",10,"", getTitle().c_str());
-    printf("Signatur:%*s\n",10, getSignature().c_str());
-    printf("Ort:%*s ",10,"");
+    printf("Titel:          %s\n", getTitle().c_str());
+    printf("Signatur:       %s\n",getSignature().c_str());
+    printf("Ort:            ");
     location.print();
-    printf("FSK:%*s freigegeben ab %d Jahren\n",10 ,"",getFSK());
-    printf("Status:%*s",10,getStatus());
+    printf("FSK:            freigegeben ab %d Jahren\n",getFSK());
+    printf("Status:         %s", getStatus());
 };
 
 int TMedium::getFSK()
@@ -58,7 +58,6 @@ string TMedium::getTitle()
 TMedium::~TMedium()
 {
 };
-
 
 string  TMedium:: parseLine(string line, pos * position)
 {

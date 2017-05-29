@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-//OLD file:    TLibraryPool LP("data.xml");
    TLibraryPool LP("data.xml");
 
    LP.print();

@@ -1,23 +1,25 @@
-
 #ifndef TICPP_BUECHEREI_TLIBRARY_H
 #define TICPP_BUECHEREI_TLIBRARY_H
 
 #include <vector>
-#include "TMedium.h"
-#include "TPerson.h"
-
+#include "TEmployee.h"
+#include "TBook.h"
+#include "TMagazine.h"
+#include "TCD.h"
+#include "TDVD.h"
+#include "TAudiobook.h"
 
 class TLibrary {
     string name;
     TAddress address;
-    TPerson *manager;
+    TEmployee *manager;
     vector<TMedium *> mediumList;
      typedef struct {
         int startpos;
         int endpos;
       } pos;
     public:
-    TLibrary(string n, TAddress a, TPerson *m);
+    TLibrary(string n, TAddress a, TEmployee *m);
     TLibrary();
     ~TLibrary();
 

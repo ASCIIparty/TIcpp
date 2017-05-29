@@ -1,7 +1,10 @@
 #include "TLoan.h"
 #include "TLibrary.h"
-#include "TPerson.h"
+#include "TEmployee.h"
+#include "TCustomer.h"
+
 using namespace std;
+
 class TLibraryPool  {
 public:
     typedef struct {
@@ -10,23 +13,22 @@ public:
     } pos;
 private:
     string Name;
-    TPerson * Chairman;
+    TEmployee *Chairman;
     vector<TLibrary *> LibraryList;
-    vector<TPerson *> Customers;
+    vector<TCustomer *> Customers;
     vector<TLoan *> LoanList;
     string parseLine(string line, pos * position);
 public:
 
-    TLibraryPool(string Name, TPerson * Chairman);
+    TLibraryPool(string Name, TEmployee *Chairman);
     TLibraryPool(char * filename);
     ~TLibraryPool();
-    void add(TPerson * Customer);
+    void add(TCustomer * Customer);
     void add(TLibrary * Library);
-    TPerson * get_Chairman();
-    void set_Chairman(TPerson Chairman);
-    vector<TPerson*>  get_Customers();
+    TEmployee *get_Chairman();
+    void set_Chairman(TEmployee Chairman);
+    vector<TCustomer*>  get_Customers();
     vector<TLibrary*>  get_LibraryList();
     void print();
     void load( ifstream& file);
-
 };

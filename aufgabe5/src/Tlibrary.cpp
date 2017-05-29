@@ -1,6 +1,6 @@
 #include "TLibrary.h"
 
-TLibrary::TLibrary(string n, TAddress a, TPerson *m)
+TLibrary::TLibrary(string n, TAddress a, TEmployee *m)
 {
     name = n;
     address = a;
@@ -21,20 +21,22 @@ TLibrary::~TLibrary()
 string TLibrary::getName()
 {   return name;    }
 
-vector<TMedium * >  TLibrary::getMediumList()
+vector<TMedium *>  TLibrary::getMediumList()
 {   return this->mediumList;  }
 
-void TLibrary::add(TMedium * medium)
-{ mediumList.push_back(medium); }
+void TLibrary::add(TMedium *medium)
+{
+    mediumList.push_back(medium);
+}
+
 void TLibrary::print()
 {
-    //cout<<endl;
     cout<<"Buecherei Filiale "<<name<<endl;
     address.print();
     printf("FilialLeiter: ");
     manager->print();
     printf("Es stehen %d Medien zur Verfuegung:\n\n",mediumList.size());
-    for(int i = 0;i<mediumList.size();i++){
+    for(int i = 0; i<mediumList.size(); i++){
         printf("\n");
         printf("Medium Nr. %d\n",i+1);
         (mediumList.at(i))->print();
@@ -43,7 +45,7 @@ void TLibrary::print()
 }
 
 
-string  TLibrary:: parseLine(string line, pos * position)
+string  TLibrary:: parseLine(string line, pos *position)
 {
     string value;
     position->startpos=line.find("<");
@@ -54,7 +56,7 @@ string  TLibrary:: parseLine(string line, pos * position)
     return value;
 }
 
-void TLibrary::load( ifstream& file)
+void TLibrary::load( ifstream &file)
 {
     string line;
     string value;
@@ -65,26 +67,21 @@ void TLibrary::load( ifstream& file)
     //cout<<name<<endl;
     getline (file,line);
     value=parseLine(line,&position);
-    //cout<<value<<"=Library??"<<endl;
     while((line.find("</Library")==-1))
     {
         if(!value.compare("Address"))
-        {   //cout<<value<<"=Adress??"<<endl;
-          this->address.load(file);
-         // cout<<"adress"<<endl;
-
+        {
+            this->address.load(file);
         }
-
-         else if(!value.compare("Medium"))
-        {    //cout<<value<<"=medium??"<<endl;
-            while(!value.compare("Medium")){
+        else if(!value.compare("Book"))
+        {
+            while(!value.compare("Book")){
                 //cout<<value<<endl;
-                TMedium * medium = new TMedium();
-                medium->load(file);
-                mediumList.push_back(medium);
+                TBook *book = new TBook();
+                book->load(file);
+                mediumList.push_back(book);
                 getline (file,line);
                 value=parseLine(line,&position);
-                //cout<<"ENDE"<<value<<endl;
             }
             continue;
         }
@@ -92,7 +89,7 @@ void TLibrary::load( ifstream& file)
         {   //cout<<value<<"MAnager??"<<endl;
             getline (file,line);
             //cout<<line<<endl;
-            manager= new TPerson();
+            manager= new TEmployee();
             manager->load(file);
             getline (file,line); //</manager
             //cout<<value<<"</MAnager>??"<<endl;

@@ -11,9 +11,14 @@ TPrintedMedium::TPrintedMedium(int Pages)
     this->Pages = Pages;
 }
 
+int TPrintedMedium::getPages()
+{
+    return Pages;
+}
+
 TPrintedMedium::TPrintedMedium()
 {
-
+    //ctor
 }
 
 TPrintedMedium::~TPrintedMedium()

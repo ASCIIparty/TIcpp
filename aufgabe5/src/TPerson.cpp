@@ -12,6 +12,7 @@ TPerson::TPerson(string n , TAddress a, TDate b)
     address = a;
     birthday = b;
 }
+
 TPerson::TPerson(){}
 
 void TPerson::print()
@@ -21,6 +22,7 @@ void TPerson::print()
     printf("* ");
     birthday.print();
 }
+
 string TPerson::getName()
 {
     return name;
@@ -50,6 +52,7 @@ void TPerson::setBirthday(TDate b)
 {
     birthday = b;
 }
+
 string  TPerson:: parseLine(string line, pos * position)
 {
     string value;
@@ -61,7 +64,8 @@ string  TPerson:: parseLine(string line, pos * position)
     return value;
 
 }
- void TPerson::load( ifstream& file){
+
+void TPerson::load( ifstream& file){
     string line;
     string value;
     pos position;
@@ -87,7 +91,4 @@ string  TPerson:: parseLine(string line, pos * position)
         getline (file,line);
         value=parseLine(line,&position);
     }
-
-
-
  }

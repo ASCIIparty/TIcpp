@@ -11,7 +11,12 @@ class TBook : virtual public TPrintedMedium
     public:
         TBook(string title, string signature, TLocation location, int FSK, status stat, int Pages, string author);
         TBook(string author);
+        TBook();
         virtual ~TBook();
+        string parseLine(string line, pos *position);
+        void load( ifstream &file);
+        string getAuthor();
+        void print();
 
 };
 

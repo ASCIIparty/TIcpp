@@ -6,6 +6,10 @@ TCD::TCD(string t, string s, TLocation l, int f, status stat, int Tracks, string
     this -> Artist = Artist;
 }
 
+TCD::TCD()
+{
+}
+
 TCD::~TCD()
 {
     //dtor

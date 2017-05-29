@@ -13,6 +13,7 @@ TDate::TDate()
     month=ltm->tm_mon+1;
     day=ltm->tm_mday;
 }
+
 string TDate:: parseLine(string line, pos * position)
 {
     string value;
@@ -24,8 +25,9 @@ string TDate:: parseLine(string line, pos * position)
     return value;
 
 }
- TDate::TDate(int day, int month, int year)
- {
+
+TDate::TDate(int day, int month, int year)
+{
     this->day=day;
     this->month=month;
     this->year=year;
@@ -60,25 +62,23 @@ int TDate::get_year()
     return year;
 }
 void TDate::load( ifstream& file)
- {
-     string line;
-     string value;
-     pos position;
-     getline(file,line);
-     value=parseLine(line,&position);
-     string  sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-     this->day=atoi(sub_value.c_str()) ;
-     getline (file,line);
-     value=parseLine(line,&position);
-     sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-     this->month=atoi(sub_value.c_str()) ;
-     getline (file,line);
-     value=parseLine(line,&position);
-     sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-     this->year=atoi(sub_value.c_str());
-     //cout<<year<<"year"<<endl;
-     getline (file,line);
-
-
- }
+{
+    string line;
+    string value;
+    pos position;
+    getline(file,line);
+    value=parseLine(line,&position);
+    string  sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+    this->day=atoi(sub_value.c_str()) ;
+    getline (file,line);
+    value=parseLine(line,&position);
+    sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+    this->month=atoi(sub_value.c_str()) ;
+    getline (file,line);
+    value=parseLine(line,&position);
+    sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+    this->year=atoi(sub_value.c_str());
+    //cout<<year<<"year"<<endl;
+    getline (file,line);
+}
 

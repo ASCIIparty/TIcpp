@@ -14,7 +14,7 @@ protected:
     string titel;
     string signatur;
     enum status {verfuegbar, ausgeliehen, bestellt, reserviert};
-private:
+protected:
     TLocation location;
     int FSK;
     char * statusNames[4];
@@ -32,7 +32,7 @@ public:
     int getFSK();
     string getSignature();
     string getTitle();
-    ~TMedium();
+    virtual ~TMedium();
     void load( ifstream& file);
     string parseLine(string line, pos * position);
     void setStatus(int i);
