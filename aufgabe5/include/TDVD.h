@@ -7,14 +7,13 @@
 
 class TDVD : virtual public TMedium
 {
+    protected:
+        string Actor;
+        TTime PlayingTime;
     public:
-        TDVD(string t, string s, TLocation l, int f, status stat, string Actor, TTime Playtime);
+        TDVD(string titel , string signatur, TLocation location, int FSK, status stat, string Actor, TTime PlayingTime);
         TDVD(string Actor, TTime Playtime);
         virtual ~TDVD();
-
-    private:
-        string Actor;
-        TTime Playtime;
 };
 
 #endif // TDVD_H

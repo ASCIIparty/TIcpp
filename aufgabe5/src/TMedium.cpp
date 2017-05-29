@@ -4,16 +4,16 @@
 #include "TMedium.h"
 
 
-TMedium::TMedium(string t, string s, TLocation l, int f, status stat):location(l)
+TMedium::TMedium(string title, string signatur, TLocation location, int FSK, status stat):location(location)
 {
-    titel = t;
-    signatur = s;
-    FSK = f;
+    this->titel = title;
+    this->signatur = signatur;
+    this->FSK = FSK;
     this->stat=stat;
 };
 TMedium::TMedium(){}
 
-char * TMedium::getStatus() //soll den Status im Klartext – also als String zurückgeben
+char *TMedium::getStatus() //soll den Status im Klartext – also als String zurückgeben
 {
     switch(stat)
     {

@@ -8,7 +8,7 @@ TLoan::TLoan( TMedium * Medium,TPerson * Customer,TDate LoanDate,TDate Expiratio
 }
 TLoan::~TLoan()
 {
-    cout<<"deletes"<<endl;
+    cout<<"Loesche TLoan"<<endl;
 }
 TPerson * TLoan::get_customer(){
     return this->Customer;

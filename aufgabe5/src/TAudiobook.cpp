@@ -3,8 +3,9 @@
 #include "TDVD.h"
 #include "ttime.h"
 
-TAudiobook::TAudiobook(string t, string s, TLocation l, int f, status stat, int Pages, string author,
-                    string Actor, TTime Playtime, int countCDs) : TBook(t, s, l, f, stat, Pages, author), TDVD(Actor, Playtime)
+
+TAudiobook::TAudiobook(string title, string signature, TLocation location, int FSK, status stat, int Pages, string author, string Actors, TTime PlayingTime, int countCDs)
+            : TBook(title, signature, location, FSK, stat, Pages, author), TDVD(titel , signatur, location, FSK, stat, Actor, PlayingTime)
 {
     this->countCDs = countCDs;
 }

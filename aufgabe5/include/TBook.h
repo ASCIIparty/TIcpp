@@ -4,12 +4,13 @@
 #include <TPrintedMedium.h>
 
 
-class TBook : public TPrintedMedium
+class TBook : virtual public TPrintedMedium
 {
     string author;
 
     public:
-        TBook(string t, string s, TLocation l, int f, status stat, int Pages, string author);
+        TBook(string title, string signature, TLocation location, int FSK, status stat, int Pages, string author);
+        TBook(string author);
         virtual ~TBook();
 
 };

@@ -8,7 +8,7 @@ class TMagazine : public TPrintedMedium
 {
     string Designer;
     public:
-        TMagazine(string t, string s, TLocation l, int f, status stat, int Pages, string Designer);
+        TMagazine(string title, string signature, TLocation location, int FSK, status stat, string author, int Pages, string Designer);
         virtual ~TMagazine();
 
 };

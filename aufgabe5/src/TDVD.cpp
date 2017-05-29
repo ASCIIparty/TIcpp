@@ -1,9 +1,9 @@
 #include "TDVD.h"
 
-TDVD::TDVD(string t, string s, TLocation l, int f, status stat, string Actor, TTime Playtime) : TMedium( t,  s,  l,  f,  stat)
+TDVD::TDVD(string titel , string signatur, TLocation location, int FSK, status stat, string Actor, TTime PlayingTime) : TMedium(titel,  signatur,  location,  FSK,  stat)
 {
     this->Actor = Actor;
-    this->Playtime = Playtime;
+    this->PlayingTime = PlayingTime;
 }
 
 TDVD::~TDVD()

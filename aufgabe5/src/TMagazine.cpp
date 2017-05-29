@@ -1,6 +1,7 @@
 #include "TMagazine.h"
 
-TMagazine::TMagazine(string t, string s, TLocation l, int f, status stat, int Pages, string Designer) : TPrintedMedium(t, s, l, f, stat, Pages)
+TMagazine::TMagazine(string title, string signature, TLocation location, int FSK, status stat, string author, int Pages, string Designer)
+            : TPrintedMedium(title, signature, location, FSK, stat, author, Pages)
 {
     this->Designer = Designer;
 }

@@ -5,12 +5,12 @@
 #include <TDVD.h>
 
 
-class TAudiobook : virtual public TBook, virtual public TDVD
+class TAudiobook : virtual public TBook, public TDVD
 {
     int countCDs;
+    TTime PlayingTime;
     public:
-        TAudiobook(string t, string s, TLocation l, int f, status stat, int Pages, string author,
-                    string Actor, TTime Playtime, int countCDs);
+        TAudiobook(string title, string signature, TLocation location, int FSK, status stat, int Pages, string author, string Actors, TTime PlayingTime, int countCDs);
         virtual ~TAudiobook();
 };
 

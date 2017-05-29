@@ -8,7 +8,7 @@
 class TEmployee : virtual public TPerson, virtual public TCustomer
 {
     public:
-        TEmployee(string name, TAddress address, TDate birthday, int CustomerNr, int EmployeeNr);
+        TEmployee(string name, TAddress address, TDate birthday, int CustomerNr, int EmployeeNr, vector<TLoan*> LoanList);
         virtual ~TEmployee();
 
     private:

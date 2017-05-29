@@ -10,10 +10,11 @@ using namespace std;
 
 
 class TMedium {
-public:
+protected:
+    string titel;
+    string signatur;
     enum status {verfuegbar, ausgeliehen, bestellt, reserviert};
 private:
-    string titel, signatur;
     TLocation location;
     int FSK;
     char * statusNames[4];
@@ -24,7 +25,7 @@ private:
      } pos;
 
 public:
-    TMedium(string t, string s, TLocation l, int f, status stat);
+    TMedium(string title, string signature, TLocation location, int FSK, status stat);
     TMedium();
     char * getStatus();
     void print();

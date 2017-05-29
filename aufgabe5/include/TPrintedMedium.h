@@ -9,7 +9,9 @@ class TPrintedMedium : virtual public TMedium
     private:
         int Pages;
     public:
-        TPrintedMedium(string t, string s, TLocation l, int f, status stat, int Pages);
+        TPrintedMedium();
+        TPrintedMedium(string title, string signature, TLocation location, int FSK, status stat, string author, int Pages);
+        TPrintedMedium(int Pages);
         virtual ~TPrintedMedium();
 };
 
