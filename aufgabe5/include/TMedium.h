@@ -28,13 +28,13 @@ public:
     TMedium(string title, string signature, TLocation location, int FSK, status stat);
     TMedium();
     char * getStatus();
-    void print();
+    virtual void print();
     int getFSK();
     string getSignature();
     string getTitle();
     virtual ~TMedium();
-    void load( ifstream& file);
-    string parseLine(string line, pos * position);
+    virtual void load( ifstream& file);
+    virtual string parseLine(string line, pos * position);
     void setStatus(int i);
 };
 

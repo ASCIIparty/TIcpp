@@ -16,6 +16,7 @@ TLibrary::~TLibrary()
         printf("delete Medium %s\n", med->getTitle().c_str());
         delete med;
     }
+
 }
 
 string TLibrary::getName()
@@ -135,13 +136,11 @@ void TLibrary::load( ifstream &file)
         }
 
         else if(!value.compare("Manager"))
-        {   //cout<<value<<"MAnager??"<<endl;
+        {
             getline (file,line);
-            //cout<<line<<endl;
             manager= new TEmployee();
             manager->load(file);
             getline (file,line); //</manager
-            //cout<<value<<"</MAnager>??"<<endl;
         }
         getline (file,line);
         value=parseLine(line,&position);
