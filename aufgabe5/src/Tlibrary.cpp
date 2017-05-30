@@ -85,6 +85,55 @@ void TLibrary::load( ifstream &file)
             }
             continue;
         }
+        else if(!value.compare("Magazine"))
+        {
+            while(!value.compare("Magazine")){
+                cout<< "MAGAZINE "<<endl;
+                TMagazine *magazine = new TMagazine();
+                magazine->load(file);
+                mediumList.push_back(magazine);
+                getline (file,line);
+                value=parseLine(line,&position);
+            }
+            continue;
+        }
+        else if(!value.compare("DVD"))
+        {
+            while(!value.compare("DVD")){
+                cout<< "DVD" <<endl;
+                TDVD *dvd = new TDVD();
+                dvd->load(file);
+                mediumList.push_back(dvd);
+                getline(file,line);
+                value=parseLine(line,&position);
+            }
+            continue;
+        }
+        else if(!value.compare("CD"))
+        {
+            while(!value.compare("CD")){
+                cout<< "CD" <<endl;
+                TCD *cd = new TCD();
+                cd->load(file);
+                mediumList.push_back(cd);
+                getline (file,line);
+                value=parseLine(line,&position);
+            }
+            continue;
+        }
+        else if(!value.compare("Audiobook"))
+        {
+            while(!value.compare("Audiobook")){
+                cout<<value << "Audiobook"<<endl;
+                TAudiobook *Audiobook = new TAudiobook();
+                Audiobook->load(file);
+                mediumList.push_back(Audiobook);
+                getline (file,line);
+                value=parseLine(line,&position);
+            }
+            continue;
+        }
+
         else if(!value.compare("Manager"))
         {   //cout<<value<<"MAnager??"<<endl;
             getline (file,line);

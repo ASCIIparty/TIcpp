@@ -6,7 +6,8 @@
 
 class TBook : virtual public TPrintedMedium
 {
-    string author;
+    protected:
+        string author;
 
     public:
         TBook(string title, string signature, TLocation location, int FSK, status stat, int Pages, string author);
