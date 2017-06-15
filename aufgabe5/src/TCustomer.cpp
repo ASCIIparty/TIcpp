@@ -1,24 +1,27 @@
 #include "TCustomer.h"
 
+using namespace std;
 
-TCustomer::TCustomer(string name, TAddress address, TDate birthday, string CustomerNr, vector<TLoan*> LoanList)
+
+/*TCustomer::TCustomer(string name, TAddress address, TDate birthday, string CustomerNr, vector<TLoan*> LoanList)
             : TPerson(name, address, birthday)
 {
     this->CustomerNr = CustomerNr;
     this->LoanList = LoanList;
-}
+}*/
 
-TCustomer::TCustomer(string CustomerNr, vector<TLoan *> LoanList)
+/*TCustomer::TCustomer(string CustomerNr, vector<TLoan *> LoanList)
 {
     this->CustomerNr = CustomerNr;
     this->LoanList = LoanList;
 }
-
+*/
 TCustomer::TCustomer() {}
 
 TCustomer::~TCustomer()
 {
-    //dtor
+    printf("Der Kunde %s wurde geloescht.\n", getName().c_str());
+
 }
 
 void TCustomer::print()
@@ -33,7 +36,6 @@ string TCustomer::getCustomerNr()
 {
     return CustomerNr;
 }
-
 
 string TCustomer::parseLine(string line, pos *position)
 {

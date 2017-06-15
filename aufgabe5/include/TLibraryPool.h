@@ -31,4 +31,5 @@ public:
     vector<TLibrary*>  get_LibraryList();
     void print();
     void load( ifstream& file);
+    TCustomer * findCustomerByID( TLoan * loan);
 };

@@ -904,3 +904,359 @@
 	<vector>
 	"TLibraryPool.h"
 
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1496336580 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"tdate.h"
+
+1496335074 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1496332943 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tcustomer.h
+	<vector>
+	"TPerson.h"
+	"TLoan.h"
+	<cstdlib>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496332943 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496334231 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496334256 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496335651 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tcd.cpp
+	"TCD.h"
+	<fstream>
+	<cstdlib>
+	"stdio.h"
+
+1496334307 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496335740 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1496334352 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496335183 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1496336555 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496336699 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tloan.cpp
+	<cstdio>
+	"TLoan.h"
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496334586 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496334678 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496334880 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496334749 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+	<fstream>
+	<cstdlib>
+
+1496333585 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1496336545 source:c:\users\lennox\desktop\c++\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1497521068 c:\users\lennox\desktop\c++\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1497540937 c:\users\lennox\desktop\c++\aufgabe5\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	<TCustomer.h>
+	"tdate.h"
+
+1496338674 c:\users\lennox\desktop\c++\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1497536653 c:\users\lennox\desktop\c++\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1496336543 c:\users\lennox\desktop\c++\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1497540812 c:\users\lennox\desktop\c++\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+	"TLoan.h"
+
+1497525730 c:\users\lennox\desktop\c++\aufgabe5\include\tcustomer.h
+	<cstdlib>
+	<vector>
+	<iostream>
+	<fstream>
+	"TPerson.h"
+	<TLoan.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496336543 c:\users\lennox\desktop\c++\aufgabe5\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496336545 source:c:\users\lennox\desktop\c++\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496337831 source:c:\users\lennox\desktop\c++\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496337856 source:c:\users\lennox\desktop\c++\aufgabe5\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496339251 source:c:\users\lennox\desktop\c++\aufgabe5\src\tcd.cpp
+	"TCD.h"
+	<fstream>
+	<cstdlib>
+	"stdio.h"
+
+1497519969 source:c:\users\lennox\desktop\c++\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1497540629 source:c:\users\lennox\desktop\c++\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496339340 source:c:\users\lennox\desktop\c++\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1497520427 source:c:\users\lennox\desktop\c++\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496338783 source:c:\users\lennox\desktop\c++\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1497521929 source:c:\users\lennox\desktop\c++\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496336545 source:c:\users\lennox\desktop\c++\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496338186 source:c:\users\lennox\desktop\c++\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496338278 source:c:\users\lennox\desktop\c++\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496338480 source:c:\users\lennox\desktop\c++\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496338349 source:c:\users\lennox\desktop\c++\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+	<fstream>
+	<cstdlib>
+
+1496337185 source:c:\users\lennox\desktop\c++\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1497524441 source:c:\users\lennox\desktop\c++\aufgabe5\src\tloan.cpp
+	<cstdio>
+	<iostream>
+	<cstdlib>
+	"TLoan.h"
+

@@ -38,7 +38,8 @@ void TTime::set_hour(int year)
 }
 void TTime::print()
 {
-    cout <<hour  <<":"<<minutes<<":"<<seconds<< endl;
+    //cout <<hour  <<":"<<minutes<<":"<<seconds<< endl;
+    printf("%02d:%02d:%02d\n", hour, minutes, seconds);
 }
 
 
@@ -47,20 +48,6 @@ void TTime::load(ifstream& file)
    string line;
     string value;
     pos position;
-   /**  getline(file,line);
-    value=parseLine(line,&position);
-    string  sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-    this->hour=atoi(sub_value.c_str()) ;
-    getline (file,line);
-    value=parseLine(line,&position);
-    sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-    this->minutes=atoi(sub_value.c_str()) ;
- //   getline (file,line);
-   // value=parseLine(line,&position);
-   // sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-    this->seconds = 0;
-    //cout<<year<<"year"<<endl;
-    getline (file,line);**/
     getline(file,line);
     value=parseLine(line,&position);
     while((line.find("</Time>") == -1)){

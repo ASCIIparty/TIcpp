@@ -22,6 +22,7 @@ public:
      } pos;
     TPerson(string name, TAddress address, TDate birthday);
     TPerson();
+    ~TPerson();
     void print();
     string getName();
     TAddress getAddress();
@@ -31,8 +32,6 @@ public:
     void setBirthday(TDate);
     void load( ifstream& file);
     string parseLine(string line, pos *position);
-    ~TPerson()
-    {    printf("TPerson object %s deleted.\n", name.c_str()); };
 
 };
 

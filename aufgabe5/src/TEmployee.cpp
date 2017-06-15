@@ -1,16 +1,17 @@
 #include "TEmployee.h"
 
-TEmployee::TEmployee(string name, TAddress address, TDate birthday, string CustomerNr, string EmployeeNr, vector<TLoan*> LoanList)
+/*TEmployee::TEmployee(string name, TAddress address, TDate birthday, string CustomerNr, string EmployeeNr, vector<TLoan*> LoanList)
             : TPerson(name, address, birthday), TCustomer(CustomerNr, LoanList)
 {
     this->EmployeeNr = EmployeeNr;
 }
-
+*/
 TEmployee::TEmployee() {}
 
 TEmployee::~TEmployee()
 {
-    //dtor
+    printf("Der Angestellte %s wurde geloescht.\n", getName().c_str());
+
 }
 
 void TEmployee::print()

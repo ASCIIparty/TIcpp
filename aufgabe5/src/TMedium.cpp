@@ -57,6 +57,7 @@ string TMedium::getTitle()
 
 TMedium::~TMedium()
 {
+    printf("Das Medium %s wurde geloescht.\n", getTitle().c_str());
 };
 
 string  TMedium:: parseLine(string line, pos * position)

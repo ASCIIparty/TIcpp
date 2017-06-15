@@ -1,4 +1,6 @@
 #include "TPrintedMedium.h"
+#include <fstream>
+#include <cstdlib>
 
 TPrintedMedium::TPrintedMedium(string title, string signature, TLocation location, int FSK, status stat, string author, int Pages)
                 : TMedium(title,  signatur,  location,  FSK,  stat)
@@ -23,5 +25,5 @@ TPrintedMedium::TPrintedMedium()
 
 TPrintedMedium::~TPrintedMedium()
 {
-    //dtor
+    printf("Das PrintedMedium %s wurde geloescht.\n", getTitle().c_str());
 }

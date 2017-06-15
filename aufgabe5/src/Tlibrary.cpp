@@ -11,11 +11,14 @@ TLibrary::TLibrary(){}
 
 TLibrary::~TLibrary()
 {
-   /* for(med : mediumList)
+    for(TMedium *medium : mediumList)
     {
-        printf("delete Medium %s\n", med->getTitle().c_str());
-        delete med;
-    }*/
+        delete medium;
+    }
+
+    delete manager;
+
+    printf("Die Bibliothek %s wurde geloescht.\n", getName().c_str());
 
 }
 

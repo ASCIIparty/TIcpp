@@ -15,6 +15,14 @@ TPerson::TPerson(string n , TAddress a, TDate b)
 
 TPerson::TPerson(){}
 
+TPerson::~TPerson()
+{
+    printf("Die Person %s wurde geloescht.\n", getName().c_str());
+
+}
+
+
+
 void TPerson::print()
 {
     printf("%s\n", getName().c_str());

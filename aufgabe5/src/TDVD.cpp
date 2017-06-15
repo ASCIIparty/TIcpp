@@ -2,7 +2,8 @@
 #include <fstream>
 #include <cstdlib>
 
-TDVD::TDVD(string titel , string signatur, TLocation location, int FSK, status stat, string Actors, TTime PlayingTime) : TMedium(titel,  signatur,  location,  FSK,  stat)
+TDVD::TDVD(string titel, string signatur, TLocation location, int FSK, status stat, string Actors,
+           TTime PlayingTime) : TMedium(titel,  signatur,  location,  FSK,  stat)
 {
     this->Actors = Actors;
     this->PlayingTime = PlayingTime;
@@ -10,19 +11,20 @@ TDVD::TDVD(string titel , string signatur, TLocation location, int FSK, status s
 
 TDVD::TDVD()
 {
-
 }
 
 TDVD::~TDVD()
 {
-    //dtor
+    printf("Das DVD %s wurde geloescht.\n", getTitle().c_str());
+
 }
 
 
 void TDVD::print()
 {
     printf("Schauspieler:    %s\n", getActors().c_str());
-    printf("Spielzeit:       %s\n", getPlayingTime());
+    printf("Spielzeit:       ");
+    PlayingTime.print();
     printf("Titel:           %s\n", TMedium::getTitle().c_str());
     printf("Signatur:        %s\n", getSignature().c_str());
     printf("Ort:             ");
@@ -59,42 +61,43 @@ void TDVD::load( ifstream &file)
     pos position;
     getline(file,line);
     value=parseLine(line,&position);
-     while((line.find("</DVD>") == -1)){
+    while((line.find("</DVD>") == -1))
+    {
         if(!value.compare("Location"))
         {
-        this->location.load(file);
+            this->location.load(file);
         }
         else if(!value.compare("PlayingTime"))
         {
-          getline (file,line);
-         this->PlayingTime.load(file);
-         getline (file,line);
+            getline (file,line);
+            this->PlayingTime.load(file);
+            getline (file,line);
         }
         else if(!value.compare("Title"))
         {
-         this->titel=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+            this->titel=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
 
         }
         else if(!value.compare("Signatur"))
         {
-         this->signatur=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+            this->signatur=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
 
         }
         else if(!value.compare("FSK"))
         {
-          string sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-          this->FSK=atoi(sub_value.c_str());
+            string sub_value=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+            this->FSK=atoi(sub_value.c_str());
         }
         else if(!value.compare("Status"))
         {
-         string sub_value =line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
-         TMedium::setStatus(atoi(sub_value.c_str()));
+            string sub_value =line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+            TMedium::setStatus(atoi(sub_value.c_str()));
 
 
         }
         else if(!value.compare("Actors"))
         {
-         this->Actors=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
+            this->Actors=line.substr(position.startpos+value.size()+1,position.endpos-position.startpos-value.size()-3);
 
 
         }
@@ -102,7 +105,7 @@ void TDVD::load( ifstream &file)
         value=parseLine(line,&position);
 
 
-     }
+    }
 
 
 }

@@ -30,4 +30,5 @@ class TDate
         void print();
         void load(ifstream& file);
         string parseLine(string line, pos * position);
+        TDate operator +( int day);
 };

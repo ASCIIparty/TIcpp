@@ -4,6 +4,7 @@
 #include "stdio.h"
 using namespace std;
 
+
 TCD::TCD(string title, string signatur, TLocation location, int FSK, status stat, int Tracks, string Artist) :  TMedium( titel, signatur,  location,  FSK,  stat)
 {
     this->Tracks = Tracks;
@@ -16,7 +17,8 @@ TCD::TCD()
 
 TCD::~TCD()
 {
-    //dtor
+    printf("Die CD %s wurde geloescht.\n", getTitle().c_str());
+
 }
 
 

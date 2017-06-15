@@ -20,7 +20,7 @@ TBook::TBook()
 
 TBook::~TBook()
 {
-    //dtor
+    printf("Das Buch %s wurde geloescht.\n", getTitle().c_str());
 }
 
 void TBook::print()

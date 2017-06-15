@@ -1,20 +1,17 @@
-#ifndef TCUSTOMER_H
-#define TCUSTOMER_H
+
+#pragma once
 #include <cstdlib>
 #include <vector>
-#include <iostream>
-#include <fstream>
-#include "TPerson.h"
-#include <TLoan.h>
-
+//#include "TLoan.h"
 
 
 using namespace std;
 
+
 class TCustomer : virtual public TPerson
 {  protected:
         string CustomerNr;
-        //TLoan* LoanList;
+      //TLoan* LoanList;
 
     public:
       //TCustomer(string name, TAddress address, TDate birthday, string CustomerNr, vector<TLoan *> LoanList);
@@ -27,4 +24,3 @@ class TCustomer : virtual public TPerson
         string getCustomerNr();
         //void add(TLoan * loan);
 };
-#endif //TLOAH_H

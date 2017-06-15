@@ -13,6 +13,38 @@ TDate::TDate()
     month=ltm->tm_mon+1;
     day=ltm->tm_mday;
 }
+TDate TDate:: operator + (int days){
+    int rest=days;
+    int divisor;
+    int loop;
+    int last;
+
+    do{
+        if(!(this->month%2)){
+         divisor=31;
+        }
+        else if(this->month==2){
+            if(this->year%4 ==0 && (!(this->year%100==0) || this->year%400==0)){
+            divisor=29;
+            }
+            else{
+                divisor= 28;
+            }
+
+        }
+        else{
+            divisor= 30;
+
+        }
+        last=rest;
+      rest= days-divisor;
+      if(rest>0){
+        this->month++;
+      }
+    }while(rest>0);
+    this->day=last;
+    return *(this);
+}
 
 string TDate:: parseLine(string line, pos * position)
 {

@@ -18,7 +18,9 @@ TAudiobook::TAudiobook()
 { }
 
 TAudiobook::~TAudiobook()
-{ }
+{
+    printf("Das Hoerbuch %s wurde geloescht.\n", getTitle().c_str());
+}
 
 void TAudiobook::print()
 {

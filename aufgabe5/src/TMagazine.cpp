@@ -16,7 +16,7 @@ TMagazine::TMagazine()
 
 TMagazine::~TMagazine()
 {
-    //dtor
+    printf("Das Magazin %s wurde geloescht.\n", getTitle().c_str());
 }
 
 
