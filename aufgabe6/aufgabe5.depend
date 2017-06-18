@@ -1,0 +1,1263 @@
+# depslib dependency file v1.0
+1495883363 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TPerson.h"
+
+1495879327 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tloan.h
+	"TMedium.h"
+	"tdate.h"
+	"TPerson.h"
+
+1495879227 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlocation.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1495879335 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\taddress.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrary.h
+	<vector>
+	"TMedium.h"
+	"TPerson.h"
+
+1495881976 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1495882691 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrary.cpp
+	"TLibrary.h"
+
+1495883066 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1495882316 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1495879346 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1495880349 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\ttime.h
+	<iostream>
+
+1496056667 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496056555 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tcustomer.h
+	<TPerson.h>
+	"TLoan.h"
+
+1495891162 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496069112 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496057235 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1495885931 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TPerson.h"
+
+1495879327 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tloan.h
+	"TMedium.h"
+	"tdate.h"
+	"TPerson.h"
+
+1496070253 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tlibrary.h
+	<vector>
+	"TMedium.h"
+	"TPerson.h"
+
+1495881976 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1495882691 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1495883066 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496057398 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496061400 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1495879346 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1495880349 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\ttime.h
+	<iostream>
+
+1495890402 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tcd.cpp
+	"TCD.h"
+
+1495890326 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496069698 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+
+1496070412 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496069668 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+
+1496069256 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496069656 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+
+1496069380 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496069296 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\tbook.cpp
+	"TBook.h"
+
+1496068947 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496068992 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496066372 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1495885931 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TPerson.h"
+
+1495879327 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tloan.h
+	"TMedium.h"
+	"tdate.h"
+	"TPerson.h"
+
+1496070253 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1495891162 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tlibrary.h
+	<vector>
+	"TMedium.h"
+	"TPerson.h"
+
+1495881976 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496070387 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496070321 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496068947 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496069256 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496070412 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1495880349 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\ttime.h
+	<iostream>
+
+1496069296 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tbook.cpp
+	"TBook.h"
+
+1495890402 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tcd.cpp
+	"TCD.h"
+
+1495890326 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496056667 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496056555 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tcustomer.h
+	<TPerson.h>
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496069698 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+
+1496069112 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496057235 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1495882691 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1495883066 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496057398 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496069656 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+
+1496069380 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496061400 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1495879346 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496069668 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe05\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1496082714 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1496078855 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1496080984 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"tdate.h"
+
+1496152654 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1496091446 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496081134 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1496087536 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1496100059 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496133536 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496133284 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496133517 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496091562 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496091489 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496092685 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496088856 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496082571 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tcd.cpp
+	"TCD.h"
+
+1496152702 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496100524 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496099062 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tcustomer.h
+	<vector>
+	"TPerson.h"
+	"TLoan.h"
+	<cstdlib>
+
+1496091109 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496092630 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1496098978 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496098861 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1496132823 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1496100298 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496080965 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496089361 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496089324 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496083756 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496092855 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496091557 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+
+1496092697 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1496082714 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1496078855 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1496080984 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"tdate.h"
+
+1496081134 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\taddress.h
+	<iostream>
+	<string>
+
+1496091446 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496086866 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1495878534 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tlocation.h
+	<iostream>
+	<string>
+
+1496087536 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1496098861 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1496099062 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tcustomer.h
+	<vector>
+	"TPerson.h"
+	"TLoan.h"
+	<cstdlib>
+
+1496100059 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496099590 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496099570 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496084825 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tbook.h
+	<TPrintedMedium.h>
+
+1496091562 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tprintedmedium.h
+	<TMedium.h>
+
+1496091489 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496092685 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496088856 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496082571 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tcd.cpp
+	"TCD.h"
+
+1496082556 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tcd.h
+	<TMedium.h>
+
+1496099094 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496091109 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496092630 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1496098978 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\temployee.cpp
+	"TEmployee.h"
+
+1496100492 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tlibrary.cpp
+	"TLibrary.h"
+
+1496100298 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496080965 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tloan.cpp
+	"TLoan.h"
+
+1495878534 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496089361 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496089324 d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496083756 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496092855 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496091557 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+
+1496092697 source:d:\dropbox\code\cpp.workspace\new\ticpp\aufgabe5_err\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"tdate.h"
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tcustomer.h
+	<vector>
+	"TPerson.h"
+	"TLoan.h"
+	<cstdlib>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496318755 c:\users\lennox\c\ticpp-master\aufgabe5\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496318754 c:\users\lennox\c\ticpp-master\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496324253 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1496322523 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496324234 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tcd.cpp
+	"TCD.h"
+	<fstream>
+	<cstdlib>
+	"stdio.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496324234 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496319369 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tloan.cpp
+	"TLoan.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496318756 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+
+1496319811 source:c:\users\lennox\c\ticpp-master\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1496336580 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"tdate.h"
+
+1496335074 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1496332943 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tcustomer.h
+	<vector>
+	"TPerson.h"
+	"TLoan.h"
+	<cstdlib>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496332943 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496332942 \\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1496334231 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1496334256 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496335651 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tcd.cpp
+	"TCD.h"
+	<fstream>
+	<cstdlib>
+	"stdio.h"
+
+1496334307 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1496335740 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1496334352 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1496335183 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1496336555 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496336699 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tloan.cpp
+	<cstdio>
+	"TLoan.h"
+
+1496332945 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1496334586 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1496334678 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496334880 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496334749 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+	<fstream>
+	<cstdlib>
+
+1496333585 source:\\fileshares.lis.beuth-hochschule.de\userfile$\lisbeuth\s812936\downloads\ticpp-master\ticpp-master\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1496336545 source:c:\users\lennox\desktop\c++\aufgabe5\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1497548442 c:\users\lennox\desktop\c++\aufgabe5\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+
+1497548616 c:\users\lennox\desktop\c++\aufgabe5\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"TCustomer.h"
+	"tdate.h"
+
+1496338674 c:\users\lennox\desktop\c++\aufgabe5\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\taddress.h
+	<iostream>
+	<string>
+
+1497536653 c:\users\lennox\desktop\c++\aufgabe5\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1497824349 c:\users\lennox\desktop\c++\aufgabe5\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1496336543 c:\users\lennox\desktop\c++\aufgabe5\include\tlocation.h
+	<iostream>
+	<string>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1497540812 c:\users\lennox\desktop\c++\aufgabe5\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+	"TLoan.h"
+
+1497825153 c:\users\lennox\desktop\c++\aufgabe5\include\tcustomer.h
+	<cstdlib>
+	<vector>
+	<iostream>
+	<fstream>
+	"TPerson.h"
+	"TLoan.h"
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tbook.h
+	<TPrintedMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tprintedmedium.h
+	<TMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tcd.h
+	<TMedium.h>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1496336543 c:\users\lennox\desktop\c++\aufgabe5\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1496336542 c:\users\lennox\desktop\c++\aufgabe5\include\taudiobook.h
+	<TBook.h>
+	<TDVD.h>
+
+1496336545 source:c:\users\lennox\desktop\c++\aufgabe5\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1497623925 source:c:\users\lennox\desktop\c++\aufgabe5\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"ttime.h"
+
+1497623833 source:c:\users\lennox\desktop\c++\aufgabe5\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1497624036 source:c:\users\lennox\desktop\c++\aufgabe5\src\tcd.cpp
+	"TCD.h"
+	<fstream>
+	<cstdlib>
+	"stdio.h"
+
+1497825551 source:c:\users\lennox\desktop\c++\aufgabe5\src\tcustomer.cpp
+	"TCustomer.h"
+
+1497821058 source:c:\users\lennox\desktop\c++\aufgabe5\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1497551003 source:c:\users\lennox\desktop\c++\aufgabe5\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1497520427 source:c:\users\lennox\desktop\c++\aufgabe5\src\temployee.cpp
+	"TEmployee.h"
+
+1497550456 source:c:\users\lennox\desktop\c++\aufgabe5\src\tlibrary.cpp
+	"TLibrary.h"
+
+1497827118 source:c:\users\lennox\desktop\c++\aufgabe5\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1496336545 source:c:\users\lennox\desktop\c++\aufgabe5\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1497624948 source:c:\users\lennox\desktop\c++\aufgabe5\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1497824674 source:c:\users\lennox\desktop\c++\aufgabe5\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1496338480 source:c:\users\lennox\desktop\c++\aufgabe5\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1496338349 source:c:\users\lennox\desktop\c++\aufgabe5\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+	<fstream>
+	<cstdlib>
+
+1496337185 source:c:\users\lennox\desktop\c++\aufgabe5\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1497825292 source:c:\users\lennox\desktop\c++\aufgabe5\src\tloan.cpp
+	<cstdio>
+	<iostream>
+	<cstdlib>
+	<vector>
+	"TLoan.h"
+
