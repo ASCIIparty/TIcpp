@@ -1,0 +1,190 @@
+# depslib dependency file v1.0
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\main.cpp
+	<iostream>
+	"TLibraryPool.h"
+
+1498474418 d:\code\ticpp-master\aufgabe7\include\tlibrarypool.h
+	"TLoan.h"
+	"TLibrary.h"
+	"TEmployee.h"
+	"TCustomer.h"
+	"tlist.h"
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tloan.h
+	"TPerson.h"
+	"TMedium.h"
+	"TCustomer.h"
+	"tdate.h"
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tperson.h
+	"taddress.h"
+	"tdate.h"
+	<stdio.h>
+	<string>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\taddress.h
+	<iostream>
+	<string>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tdate.h
+	<iostream>
+	<fstream>
+	<ctime>
+
+1498475803 d:\code\ticpp-master\aufgabe7\include\tmedium.h
+	<string>
+	<vector>
+	"TLocation.h"
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tlocation.h
+	<iostream>
+	<string>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tcustomer.h
+	<cstdlib>
+	<vector>
+	<iostream>
+	<fstream>
+	"TPerson.h"
+	"TLoan.h"
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tlibrary.h
+	<vector>
+	"TEmployee.h"
+	"TBook.h"
+	"TMagazine.h"
+	"TCD.h"
+	"TDVD.h"
+	"TAudiobook.h"
+
+1498599360 d:\code\ticpp-master\aufgabe7\include\temployee.h
+	<TPerson.h>
+	<TCustomer.h>
+	"TLoan.h"
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tbook.h
+	<TPrintedMedium.h>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tprintedmedium.h
+	<TMedium.h>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tmagazine.h
+	<TPrintedMedium.h>
+
+1498474169 d:\code\ticpp-master\aufgabe7\include\tcd.h
+	<TMedium.h>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\tdvd.h
+	<TMedium.h>
+	<ttime.h>
+
+1498296068 d:\code\ticpp-master\aufgabe7\include\ttime.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<string>
+
+1498583852 d:\code\ticpp-master\aufgabe7\include\taudiobook.h
+	<TBook.h>
+	<TCD.h>
+	<ttime.h>
+
+1498474451 d:\code\ticpp-master\aufgabe7\include\tlist.h
+	<cstddef>
+	<cassert>
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\taddress.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"taddress.h"
+
+1498475571 source:d:\code\ticpp-master\aufgabe7\src\taudiobook.cpp
+	"TAudiobook.h"
+	"TBook.h"
+	"TDVD.h"
+	"TCD.h"
+	"ttime.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tbook.cpp
+	"TBook.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1498475503 source:d:\code\ticpp-master\aufgabe7\src\tcd.cpp
+	"TCD.h"
+	<fstream>
+	<cstdlib>
+	"stdio.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tcustomer.cpp
+	"TCustomer.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tdate.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"tdate.h"
+
+1498583945 source:d:\code\ticpp-master\aufgabe7\src\tdvd.cpp
+	"TDVD.h"
+	<fstream>
+	<cstdlib>
+
+1498599796 source:d:\code\ticpp-master\aufgabe7\src\temployee.cpp
+	"TEmployee.h"
+
+1498599744 source:d:\code\ticpp-master\aufgabe7\src\tlibrarypool.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"TLibraryPool.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tloan.cpp
+	<cstdio>
+	<iostream>
+	<cstdlib>
+	<vector>
+	"TLoan.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tlocation.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"tlocation.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tmagazine.cpp
+	"TMagazine.h"
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+
+1498584406 source:d:\code\ticpp-master\aufgabe7\src\tmedium.cpp
+	<stdio.h>
+	<fstream>
+	<cstdlib>
+	"TMedium.h"
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tperson.cpp
+	"TPerson.h"
+	"tdate.h"
+	"taddress.h"
+	<string>
+	<cstdlib>
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\tprintedmedium.cpp
+	"TPrintedMedium.h"
+	<fstream>
+	<cstdlib>
+
+1498296068 source:d:\code\ticpp-master\aufgabe7\src\ttime.cpp
+	<iostream>
+	<ctime>
+	"ttime.h"
+
+1498598266 source:d:\code\ticpp-master\aufgabe7\src\tlibrary.cpp
+	"TLibrary.h"
+
